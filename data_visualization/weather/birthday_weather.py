@@ -1,7 +1,7 @@
 import csv
 import matplotlib.pyplot as plt
 
-f = open('data_visualization\seoul_weather.csv')
+f = open('data_visualization\weather\seoul_weather.csv')
 data = csv.reader(f)
 
 # 헤더부분 제거
